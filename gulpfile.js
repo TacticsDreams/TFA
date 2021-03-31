@@ -70,6 +70,7 @@ const browserReload = (done) => {
 	done();
 }
 
+// Compress jpg, png, gif and svg images
 const compressImages = () => {
 	return gulp.src([
 		"./src/assets/images/**/*.jpg",
