@@ -13,7 +13,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 80px;
   margin-bottom: 40px;
 }
 .topheader__left {
@@ -24,6 +23,7 @@ body {
 .topheader__navlist {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
 }
