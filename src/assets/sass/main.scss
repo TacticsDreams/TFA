@@ -5,6 +5,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.dark {
+  background-color: black;
+  color: white;
+}
 .topheader{
   background-color: $c-color1;
   color: white;

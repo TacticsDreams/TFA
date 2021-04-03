@@ -10,6 +10,15 @@
     }
     &__text {
         background-color: black;
-        grid-column: 2 / 5;
+        color: white;
+        &--left {
+            grid-column: 2 / 4;
+        }
+        &--right {
+            grid-column: 6 / 8;
+        }
+    }
+    &__title {
+        grid-column: 2 / 9;
     }
 }

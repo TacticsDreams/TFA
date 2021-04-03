@@ -1,1 +1,20 @@
-console.log('I am not a penguin');
+'use strict';
+
+const footer = document.querySelector(".footer__link");
+let now = new Date();
+let year = now.getFullYear();
+footer.innerHTML += year;
+
+if (window.localStorage.getItem('dark') === 'true') {
+    document.body.classList.toggle('dark');
+}
+
+let dark = document.querySelector('.modebutton');
+dark.addEventListener('click', (e) => {
+    document.body.classList.toggle('dark');
+    if (document.body.classList.contains('dark')){
+        window.localStorage.setItem('dark', 'true');
+    } else {
+        window.localStorage.removeItem('dark');
+    }
+});
