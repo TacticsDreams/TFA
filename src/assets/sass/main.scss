@@ -4,6 +4,12 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Truculenta', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.title {
+  font-family: 'Texturina', serif;
 }
 .dark {
   background-color: black;
@@ -43,6 +49,25 @@ body {
 }
 .topheader__navlist--el a:hover {
   background-color: #FF3333;
+}
+.modebutton {
+    background-image: url(../images/sun.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    height: 48px;
+    width: 48px;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: 0;
+    cursor: pointer;
+}
+.dark .modebutton {
+  background-image: url(../images/moon.svg);
+
 }
 
 .footer{
@@ -95,6 +120,9 @@ body {
   }
 
   @media (min-width: 769px){
+    body {
+      font-size: 24px;
+    }
     .footer {
         flex-direction: row;
         justify-content: space-between;
