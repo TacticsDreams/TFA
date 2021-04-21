@@ -121,3 +121,9 @@
         }
     }
 }
+
+@media screen and (min-device-pixel-ratio: 2) {
+    .landing__main {
+        background-image: url("../images/bg@2x.png");
+    }
+}
