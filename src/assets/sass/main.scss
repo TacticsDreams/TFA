@@ -7,17 +7,19 @@ body {
   font-family: 'Truculenta', sans-serif;
   font-size: 20px;
   line-height: 1.5;
+  transition-duration: 0.3s;
+  transition-property: background-color color;
 }
 .title {
   font-family: 'Texturina', serif;
 }
 .dark {
-  background-color: black;
+  background-color: #121212;
   color: white;
 }
 .topheader{
   background-color: $c-color1;
-  color: white;
+  color: black;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -40,7 +42,7 @@ body {
   margin: 0 20px;
 }
 .topheader__navlist--el a {
-  color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
   display: block;
   padding: 0.5em;
@@ -48,7 +50,7 @@ body {
   transition-duration: 0.6s;
 }
 .topheader__navlist--el a:hover {
-  background-color: #FF3333;
+  background-color: #55AAFF;
 }
 .modebutton {
     background-image: url(../images/sun.svg);
