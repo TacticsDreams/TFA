@@ -1,131 +1,124 @@
 .landing {
     width: 100%;
-    &__main {
-        color: black;
-        display: grid;
-        grid-template-columns: 1fr 2fr 4fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
-        height: 90vh;
-        width: 100%;
-        background-image: url("../images/bg.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        &--title {
-            grid-column: 2 / 5;
-            grid-row: 2;
-        }
-        &--subtext {
-            grid-row: 3;
-            grid-column: 2 / 5;
-        }
-        &--button {
-            grid-row: 4;
-            grid-column: 3;
-            border-radius: 1em;
-            background-color: blue;
-            color: white;
-            font-size: 20px;
-            border: none;
-            box-shadow: 0 5px 6px #4D4D4D;
+}
+
+.main {
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 2fr 4fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+    height: 91vh;
+    width: 100%;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title {
+        grid-column: 2 / 5;
+        grid-row: 2;
+        text-transform: uppercase;
+    }
+    &__subtext {
+        grid-row: 3;
+        grid-column: 2 / 5;
+    }
+    &__link {
+        grid-row: 4;
+        grid-column: 3;
+        border-radius: 1em;
+        background-color: $c-color3;
+        color: white;
+        font-size: 20px;
+        padding: 0.5em;
+        box-shadow: 0 5px 6px #4D4D4D;
+        text-decoration: none;
+        align-self: center;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            background-color: $c-color4;
         }
     }
-    &__section {
-        display: grid;
-        margin-top: 15vh;
-        grid-template-columns: 1fr 4fr 1fr 1fr 4fr 1fr;
-        grid-template-rows: 1fr 2fr;
+}
+.section {
+    margin-top: 15vh;
+    grid-template-columns: 1fr 4fr 1fr 1fr 4fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    display: grid;
+    &__left {
+        grid-column: 2 / 6;
+        align-self: center;
     }
+    &__right {
+        grid-column: 2 / 6;
+        align-self: center;
+    }
+    &__wide {
+        grid-column: 2 / 6;
+    }
+    
     &__text {
         background-color: black;
         color: white;
-        &--left {
-            grid-column: 2 / 6;
-        }
-        &--right {
-            grid-column: 2 / 6;
-        }
-        &--wide {
-            grid-column: 2 / 6;
-        }
     }
     &__title {
         grid-column: 2 / 6;
     }
-    &__img {
-        max-height: 360px;
-        width: 80%;
-        margin: auto;
-        &--left {
-            grid-column: 2 / 6;
-        }
-        &--right {
-            grid-column: 2 / 6;
-        }
-    }
 }
+.img {
+    width: 80%;
+    margin: auto;
+}
+
 
 //Desktop
 @media (min-width: 768px) {
-    .landing {
-        &__main {
+    .main {
             background-image: url("../images/bg.png");
             background-repeat: no-repeat;
             background-size: cover;
             grid-template-columns: 1fr 2fr 4fr 2fr 1fr 2fr 4fr 2fr 1fr;
             grid-template-rows: 1fr 2fr 3fr 1fr 1fr;
-            &--title {
+            &__title {
                 grid-column: 6 / 9;
                 grid-row: 2;
             }
-            &--subtext {
+            &__subtext {
                 grid-row: 3;
                 grid-column: 6 / 9;
             }
-            &--button {
+            &__link {
                 grid-row: 4;
                 grid-column: 7;
             }
         }
-        &__section {
+        .section {
             display: grid;
             grid-template-columns: 2fr 4fr 1fr 1fr 4fr 2fr;
             grid-template-rows: 1fr 2fr;
             
-        }
-        &__text {
-            background-color: black;
-            color: white;
-            &--left {
-                align-self: center;
+            &__left {
                 grid-column: 2 / 3;
             }
-            &--right {
-                align-self: center;
+            &__right {
                 grid-column: 5 / 6;
             }
-            &--wide {
-                align-self: center;
-                grid-column: 2 / 5;
+            &__wide {
+                grid-column: 2 / 6;
             }
-        }
-        &__title {
-            grid-column: 2 / 6;
-        }
-        &__img {
-            width: auto;
-            margin: auto;
-            &--left {
-                grid-column: 2 / 3;
+            
+            &__text {
+                background-color: black;
+                color: white;
             }
-            &--right {
-                grid-column: 5 / 6;
+            &__title {
+                grid-column: 2 / 6;
             }
+            
         }
     }
-}
 
 @media screen and (min-device-pixel-ratio: 2) {
-    .landing__main {
+    .main {
         background-image: url("../images/bg@2x.png");
     }
 }

@@ -1,15 +1,5 @@
 'use strict';
 
-function newTab() {
-    console.log('Called it, bud.');
-    window.open('https://projects.invisionapp.com/prototype/cknribv6h00409o018vsb3ygg/play', '_blank');
-}
-
-const discover = document.querySelector("#discovery");
-discover.addEventListener("click", (e) => {
-    e.preventDefault();
-    newTab();
-});
 
 const footer = document.querySelector(".footer__link");
 let now = new Date();
