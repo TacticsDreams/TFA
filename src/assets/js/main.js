@@ -19,3 +19,4 @@ dark.addEventListener('click', (e) => {
         window.localStorage.removeItem('dark');
     }
 });
+

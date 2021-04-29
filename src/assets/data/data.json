@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Covid: plus de 6000 patients en réanimation, une première depuis plus d'1 an",
+        "sub": "Depuis une dizaine de jours, le nombre de personnes en réanimation s'approchait de la barre des 6000.",
+        "website": "https://www.huffingtonpost.fr/entry/covid-6000-patients-en-reanimation-une-premiere-depuis-plus-d1-an_fr_6086f4bbe4b02e74d21d87c6",
+        "date": "26/04/2021",
+        "priority": "true"
+    },
+    {
+        "title": "Getting started with CSS Custom Properties",
+        "sub": "Custom properties in CSS are exceptionally useful for abstracting complexity and interactivity into smaller, easier to manage pieces.",
+        "website": "https://piccalil.li/tutorial/getting-started-with-css-custom-properties?ref=sidebar",
+        "date": "26/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "How tracking and kerning improves all caps text",
+        "sub": "When untreated, all caps text creates problematic spaces between letters. Tracking fixes it mostly for web and app design, kerning fine-tunes it.",
+        "website": "https://www.zeichenschatz.net/typography/tracking-and-kering-all-caps-text?ref=sidebar",
+        "date": "26/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "This is how video calls should feel. Thank you!",
+        "sub": "Meet Around, video calls built for collaboration, not meetings. Free up your screen for design sessions with our lightweight, unobtrusive interface.",
+        "website": "https://www.around.co/?g=sidebar&ref=sidebar?ref=sidebar",
+        "date": "26/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "Elle meurt du Covid-19 en seulement 3 jours à 21 ans : le choc en Belgique, à proximité de la frontière",
+        "sub": "Tifany, 21 ans seulement, est décédée du Covid-19 en mars dernier des suites du Covid à Châtillon, une commune située non loin de la frontière de la Meurthe-et-Moselle.",
+        "website": "https://actu.fr/societe/coronavirus/elle-meurt-du-covid-19-en-seulement-3-jours-a-21-ans-le-choc-en-belgique-a-proximite-de-la-frontiere_41337471.html",
+        "date": "26/04/2021",
+        "priority": "false"
+    }
+]

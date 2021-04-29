@@ -1,0 +1,57 @@
+.news {
+    width: 100%;
+    padding: 1em 0;
+    background-color: rgba($color: #3377FF, $alpha: 0.18);
+}
+
+.news .timeMachine {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 0.5em;
+    border: solid 1px;
+
+    & .timelist{
+        list-style: none;
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: gray;
+        border-radius: 0.5em;
+
+        &__el{
+            padding: 0.5em;
+            border-radius: 0.25em;
+
+            & a{
+                display: block;
+            }
+
+
+        }
+        & .active {
+            background-color: $c-color2;
+        }
+    }
+}
+.news .timeCommand{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.article {
+    width: 80%;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: white;
+}
+.priority {
+    box-shadow: 
+    0 5px 5px $c-priority,
+    0 -5px 5px $c-priority,
+    5px 0 5px $c-priority,
+    -5px 0 5px $c-priority;
+}
