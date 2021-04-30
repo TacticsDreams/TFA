@@ -1,0 +1,191 @@
+@import 'variables';
+@import 'news';
+@import 'landing';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Truculenta', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  transition-duration: 0.3s;
+  transition-property: background-color color;
+}
+.title {
+  font-family: 'Texturina', serif;
+}
+.dark {
+  background-color: #121212;
+  color: white;
+}
+.topheader{
+  position: fixed;
+  background-color: $c-color1;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 5;
+}
+
+.topheader__navlist {
+  list-style: none;
+  width: 100%;
+  height: 90vh;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  order: 3
+}
+.topheader__navlist--el {
+  display: block;
+  text-align: center;
+}
+.topheader__navlist--el a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  transition-property: background-color;
+  transition-duration: 0.6s;
+}
+.topheader__navlist--el a:hover {
+  background-color: #55AAFF;
+}
+.topheader__navlist.show {
+  display: flex;
+}
+.active {
+  background-color: $c-color2;
+}
+
+.burger {
+  display: block;
+  background-image: url(../images/menu.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  font-size: 0;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+.burger.show {
+  background-image: url(../images/x.svg);
+}
+.modebutton {
+    background-image: url(../images/sun.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    height: 48px;
+    width: 48px;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: 0;
+    cursor: pointer;
+}
+.dark .modebutton {
+  background-image: url(../images/moon.svg);
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2em;
+    background-color: #4D4D4D;
+    color: #000;
+  }
+  .footer__list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+  }
+  .footer__list--el{
+    text-align: center;
+  }
+  .footer__list--el a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1em;
+  }
+  .footer__list--el:hover {
+    background-color: #AA2222;
+  }
+  .footer__link{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1em;
+    display: block;
+  }
+  .footer__link:hover{
+    background-color: #FF3333;
+  }
+  .logo{
+    margin-top: 1em;
+    text-indent: 100%;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    background-image: url('../images/logo-DWM.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  @media (min-width: 769px){
+    body {
+      font-size: 24px;
+    }
+
+    .topheader {
+      position: unset;
+      flex-wrap: nowrap;
+    }
+    .topheader__navlist {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 65%;
+      height: unset;
+    }
+    .burger {
+      display: none;
+    }
+    .modebutton {
+      order: 3;
+    }
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .footer__list {
+        flex-direction: row;
+        margin: 0;
+      }
+      .footer__link {
+        order: 2;
+        justify-content: center;
+        align-self: center;
+        margin-right: 2em;
+      }
+      .logo {
+        width: 16%;
+        margin-left: 2em;
+      }
+  }
