@@ -1,6 +1,6 @@
 .news {
     width: 100%;
-    padding: 1em 0;
+    padding: 3em 0 1em;
     background-color: rgba($color: #3377FF, $alpha: 0.18);
 }
 
@@ -41,12 +41,41 @@
     justify-content: space-around;
     align-self: center;
 }
+.timebutton {
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    height: 48px;
+    width: 48px;
+    font-size: 0;
+    &--left {
+        background-image: url('../images/arrow-left-circle.svg');
+    }
+    
+    &--right {
+        background-image: url('../images/arrow-right-circle.svg');
+    }
+}
 
 .article {
+    font-size: 18px;
     width: 80%;
     margin: 1em auto;
     padding: 1em;
     background-color: white;
+    &__link{
+        font-size: 16px;
+    }
+    & .badge {
+        position: relative;
+        top: -10px;
+        right: -10px;
+        padding: 5px 10px;
+        border-radius: 50%;
+        background: $c-priority;
+        color: white;
+
+    }
 }
 .priority {
     box-shadow: 
@@ -54,4 +83,10 @@
     0 -5px 5px $c-priority,
     5px 0 5px $c-priority,
     -5px 0 5px $c-priority;
+}
+
+@media (min-width: 768px) {
+ .news {
+     padding-top: 1em;
+ }
 }

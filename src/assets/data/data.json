@@ -33,5 +33,110 @@
         "website": "https://actu.fr/societe/coronavirus/elle-meurt-du-covid-19-en-seulement-3-jours-a-21-ans-le-choc-en-belgique-a-proximite-de-la-frontiere_41337471.html",
         "date": "26/04/2021",
         "priority": "false"
+    },
+    {
+        "title": "Exploring color-contrast() for the first time.",
+        "sub": "I saw in the release notes for Safari Technical Preview 122 that it has support for a color-contrast() function in CSS.",
+        "website": "https://css-tricks.com/exploring-color-contrast-for-the-first-time",
+        "date": "27/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "CSS Tips",
+        "sub": "CSS tips and tricks you will not see in most of tutorials.",
+        "website": "https://markodenic.com/css-tips",
+        "date": "27/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "Introducing branching: space to iterate and explore freely",
+        "sub": "Announcing branching in beta.",
+        "website": "https://www.figma.com/blog/introducing-branching-space-to-iterate-and-explore-freely",
+        "date": "27/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "Proposed Post-Pandemic New Yorker Covers",
+        "sub": "Tomer Hanuka asked his third-year illustration students at SVA to come up with a post-pandemic New Yorker magazine cover.",
+        "website": "https://kottke.org/21/04/proposed-post-pandemic-new-yorker-covers",
+        "date": "27/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "Designing search for your product",
+        "sub": "Find your way around one of the most universal features. Explore the stages of Search, how it works, crucial decisions, and how to design it.",
+        "website": "https://medium.muz.li/designing-search-for-your-product-758c97a64fc8",
+        "date": "27/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "Inspirational Websites Roundup #25",
+        "sub": "A hot new collection of amazing website designs and experiences for your inspiration.",
+        "website": "",
+        "date": "28/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "Welcome to Wondrium",
+        "sub": "Rebranding The Great Courses for the age of streaming.",
+        "website": "",
+        "date": "28/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "A Very 90s Death: The Tamagotchi Cemetery",
+        "sub": "In 1996, Japanese toy designers Aki Maita and Yokoi Akihiro debuted the first ever Tamagotchi.",
+        "website": "",
+        "date": "28/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "A Complete Guide to Custom Properties",
+        "sub": "Everything important and useful to know about CSS Custom Properties.",
+        "website": "",
+        "date": "28/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "UI & UX Micro-Tips: Volume Four",
+        "sub": "In this follow-up article I’ve brought you another selection of easy to put into practice UI & UX micro-tips.",
+        "website": "",
+        "date": "28/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "",
+        "sub": "",
+        "website": "",
+        "date": "29/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "",
+        "sub": "",
+        "website": "",
+        "date": "29/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "",
+        "sub": "",
+        "website": "",
+        "date": "29/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "",
+        "sub": "",
+        "website": "",
+        "date": "29/04/2021",
+        "priority": "false"
+    },
+    {
+        "title": "",
+        "sub": "",
+        "website": "",
+        "date": "29/04/2021",
+        "priority": "false"
     }
 ]
