@@ -18,7 +18,7 @@
         padding: 0;
         display: flex;
         justify-content: space-between;
-        background-color: gray;
+        background-color: #AAA;
         border-radius: 0.5em;
 
         &__el{
@@ -48,12 +48,21 @@
     height: 48px;
     width: 48px;
     font-size: 0;
+    cursor: pointer;
     &--left {
         background-image: url('../images/arrow-left-circle.svg');
+        &.disable {
+            background-image: url('../images/arrow-left-circle-disable.svg');
+            cursor: not-allowed;
+        }
     }
     
     &--right {
         background-image: url('../images/arrow-right-circle.svg');
+        &.disable {
+            background-image: url('../images/arrow-right-circle-disable.svg');
+            cursor: not-allowed;
+        }
     }
 }
 
@@ -85,8 +94,29 @@
     -5px 0 5px $c-priority;
 }
 
+
+.dark .news {
+    background-color: $c-dark-bg;
+
+    & .timeMachine {
+        background-color: #DADADA;
+        color: $c-dark-bg;
+    }
+    & .timebutton {
+        stroke: #CCC;
+    }
+    & .article {
+        background-color: $c-darker-bg;
+    }
+
+}
+
 @media (min-width: 768px) {
  .news {
      padding-top: 1em;
+ }
+ .article {
+     width: 70%;
+     cursor: pointer;
  }
 }
