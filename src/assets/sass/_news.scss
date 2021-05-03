@@ -14,15 +14,15 @@
     & .timelist{
         list-style: none;
         width: 90%;
-        margin: auto;
+        margin: 1em auto;
         padding: 0;
         display: flex;
-        justify-content: space-between;
-        background-color: #AAA;
+        justify-content: space-around;
         border-radius: 0.5em;
+        border: solid 1px;
 
         &__el{
-            padding: 0.5em;
+            padding: 0.5em 1em;
             border-radius: 0.25em;
 
             & a{
@@ -45,8 +45,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     align-self: center;
-    height: 48px;
-    width: 48px;
+    height: 40px;
+    width: 40px;
     font-size: 0;
     cursor: pointer;
     &--left {
@@ -87,11 +87,7 @@
     }
 }
 .priority {
-    box-shadow: 
-    0 5px 5px $c-priority,
-    0 -5px 5px $c-priority,
-    5px 0 5px $c-priority,
-    -5px 0 5px $c-priority;
+    border: solid 0.25em $c-priority;
 }
 
 
@@ -114,6 +110,10 @@
 @media (min-width: 768px) {
  .news {
      padding-top: 1em;
+     font-size: 20px;
+     & .timeMachine {
+         width: 70%;
+     }
  }
  .article {
      width: 70%;

@@ -30,19 +30,43 @@ burger.addEventListener('click', (e) => {
 });
 
 if (fileName[0].includes("main.html")) {
-    let baseDay =  new Date(2021, 4, 29);
-    let day = new Date(2021, 4, 29);
+    const day = new Date(2021, 4, 29);
     const newsBlock = document.querySelector(".news");
+    const timelist = document.querySelectorAll(".timelist__el");
+    const milliseconds = 1000*60*60*24;
+
     let localTM = window.localStorage.getItem("MI_TimeMachine");
-    if (window.localStorage.getItem('MI_TimeMachine') != undefined) {
+    if (localTM != undefined) {
         newsBlock.setAttribute("data-day", window.localStorage.getItem("MI_TimeMachine"));
     } else {
         window.localStorage.setItem('MI_TimeMachine', "4");
     }
+
+    for (let i = 0; i<timelist.length; i++) {
+        timelist[i].innerHTML = (day.getDate() - (4 - (i + 1)));
+    }
+
     let timestamp = parseInt(document.querySelector(".news").getAttribute("data-day"));
-    day.setDate(day.getDate() - (4 - timestamp));
-    let dayString = day.getDate() + "/" + day.getMonth() + "/" + day.getFullYear();
+    let currentDay = new Date(day - (4 - timestamp));
+    let dayString = currentDay.getDate() + "/" + currentDay.getMonth() + "/" + currentDay.getFullYear();
     document.querySelector(".timestamp").innerHTML = dayString;
+
+    function updateTime() {
+        newsBlock.setAttribute("data-day", timestamp);
+        window.localStorage.setItem("MI_TimeMachine", timestamp);
+        window.localStorage.setItem('MI_TimeMachine', timestamp);
+        // Je dois vraiment convertir en millisecondes?
+        currentDay = new Date(day - (4 - timestamp) * milliseconds);
+        dayString = currentDay.getDate() + "/" + currentDay.getMonth() + "/" + currentDay.getFullYear();
+        document.querySelector(".timestamp").innerHTML = dayString;
+        /**
+        * Dans la time machine, permet d'afficher actif un jour précis.
+        */
+        for (let i = 0; i<timelist.length; i++) {
+            if (i == (timestamp -1)) timelist[i].classList.add('active');
+            else timelist[i].classList.remove('active');
+        }
+    }
 
     /**
      * Génère les articles du jour sélectionné.
@@ -66,6 +90,7 @@ if (fileName[0].includes("main.html")) {
                         let link = document.createElement("p");
     
                         container.classList.add("article");
+                        if (data[i].priority == "true") container.classList.add("priority");
                         container.addEventListener("click", (e) => {
                             location.href = data[i].website;
                         });
@@ -91,34 +116,57 @@ if (fileName[0].includes("main.html")) {
     
     const rightButton = document.querySelector(".timebutton--right");
     rightButton.addEventListener("click", (e) => {
-        if (localTM != "4") {
-            console.log("Hey, you clicked on the right one!");
+        if (timestamp != "4") {
+            timestamp++;
+            updateTime();
+            buttonCheck();
+            generateArticles();
         }
     });
     const leftButton = document.querySelector(".timebutton--left");
     leftButton.addEventListener("click", (e) => {
-        if (localTM != "1") {
-            console.log("Hey, you clicked on the wrong one!");
+        if (timestamp != "1") {
+            timestamp--;
+            updateTime();
+            buttonCheck();
+            generateArticles();
         }
     });
     /**
      * Verrouille le bouton de droite si la machine est réglé sur le jour actuel,
      * ou celui de gauche si il est réglé sur avant-avant-hier.
      */
-    if (localTM == "4") {
-        rightButton.classList.add("disable");
-    }
-    if (localTM == "1") {
-        leftButton.classList.add("disable");
+    function buttonCheck() {
+        if (timestamp == "4") {
+            rightButton.classList.add("disable");
+        } else {
+            rightButton.classList.remove("disable");
+        }
+
+        if (timestamp == "1") {
+            leftButton.classList.add("disable");
+        } else {
+            leftButton.classList.remove("disable");}
     }
 
-    /**
-     * Dans la time machine, permet d'afficher actif un jour précis.
-     */
-    const timelist = document.querySelectorAll(".timelist__el");
-    for (let i = 0; i<timelist.length; i++) {
-        if (i == (timestamp -1)) timelist[i].classList.add('active');
-        else timelist[i].classList.remove('active');
+    const topButton = document.querySelector(".topBtn");
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            topButton.style.display = "block";
+        } else {
+            topButton.style.display = "none";
+        }
     }
+
+    topButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    });
+
+    buttonCheck();
+    updateTime();
     generateArticles();
 }

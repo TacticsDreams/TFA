@@ -1,5 +1,40 @@
 [
     {
+        "title": "Coronavirus en France : le bilan de ce vendredi 23 avril",
+        "sub": "Alors que la France fait face à une troisième vague et vit un nouveau confinement, le point sur le Covid-19 avec les chiffres de Santé Publique France et de Covid Tracker.",
+        "website": "https://www.cnews.fr/france/2021-04-23/coronavirus-en-france-le-bilan-de-ce-vendredi-23-avril-1074069",
+        "date": "23/4/2021",
+        "priority": "true"
+    },
+    {
+        "title": "A year in lockdown trends",
+        "sub": "The hobbies we searched for during the pandemic’s first year.",
+        "website": "https://lockdown-trends.appspot.com/",
+        "date": "23/4/2021",
+        "priority": "false"
+    },
+    {
+        "title": "The Making (and Potential Benefits) of a CSS Font",
+        "sub": "This is a way to render text without using any font at all. Every element is styled with CSS to create the characters.",
+        "website": "https://css-tricks.com/the-making-and-potential-benefits-of-a-css-font",
+        "date": "23/4/2021",
+        "priority": "false"
+    },
+    {
+        "title": "Elaborately Constructed LEGO Universes by Artist Ekow Nimako",
+        "sub": "Hundreds of thousands of sleek, black LEGO structure the utopic universes by Toronto-based artist Ekow Nimako.",
+        "website": "https://www.thisiscolossal.com/2021/04/ekow-nimako-building-black",
+        "date": "23/4/2021",
+        "priority": "false"
+    },
+    {
+        "title": "Winners of the 2021 Sony World Photography Awards",
+        "sub": "Some of the winning and shortlisted photos from this year’s competition.",
+        "website": "https://www.theatlantic.com/photo/2021/04/winners-2021-sony-world-photography-awards/618662",
+        "date": "23/4/2021",
+        "priority": "false"
+    },
+    {
         "title": "Covid: plus de 6000 patients en réanimation, une première depuis plus d'1 an",
         "sub": "Depuis une dizaine de jours, le nombre de personnes en réanimation s'approchait de la barre des 6000.",
         "website": "https://www.huffingtonpost.fr/entry/covid-6000-patients-en-reanimation-une-premiere-depuis-plus-d1-an_fr_6086f4bbe4b02e74d21d87c6",

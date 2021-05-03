@@ -1,0 +1,28 @@
+.caseStudy {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 1fr 4fr 3fr 3fr 4fr 1fr 6fr;
+
+    & .mainTitle {
+        grid-column: 3 / 8;
+    }
+    & .subText {
+        grid-column: 2 / 8;
+    }
+    & .title {
+        grid-column: 1 / 9;
+    }
+    & .text {
+        grid-column: 2/8;
+    }
+    & .subtitle {
+        grid-column: 3 / 7;
+    }
+    & .hero {
+        grid-column: 1 / 9;
+        background-color: $c-color2;
+        text-align: center;
+        margin: 0;
+        padding: 1em;
+    }
+}
