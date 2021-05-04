@@ -2,6 +2,7 @@
 @import 'news';
 @import 'landing';
 @import 'casestudy';
+@import 'archives';
 
 body {
   margin: 0;
@@ -23,14 +24,13 @@ body {
   z-index: 20;
   border: none;
   padding: 1em;
-  background-color: $c-compl1;
+  background-color: $c-color3;
   color: white;
   cursor: pointer;
   border-radius: 20px;
-  box-shadow: 0 0 10px $c-color3;
 
   &:hover {
-    background-color: $c-compl2;
+    background-color: $c-compl1;
   }
 }
 .dark {
@@ -47,6 +47,14 @@ body {
   justify-content: space-around;
   align-items: center;
   z-index: 5;
+}
+.topheader__logo {
+  font-size: 0;
+  height: 28px;
+  width: 114px;
+  background-image: url(../images/logo_MInfos.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .topheader__navlist {
@@ -73,13 +81,13 @@ body {
   transition-duration: 0.6s;
 }
 .topheader__navlist--el a:hover {
-  background-color: #55AAFF;
+  background-color: #bedefd;
 }
 .topheader__navlist.show {
   display: flex;
 }
 .active {
-  background-color: $c-color2;
+  background-color: rgb(130, 240, 255);
 }
 
 .burger {
@@ -117,6 +125,36 @@ body {
 
 }
 
+/*
+ * CSS d'un article (main.html & archives.html)
+ */
+.article {
+  font-size: 18px;
+  width: 80%;
+  margin: 1em auto;
+  padding: 1em;
+  background-color: white;
+  &__link{
+      font-size: 16px;
+  }
+  & .badge {
+      position: relative;
+      top: -10px;
+      right: -10px;
+      padding: 5px 10px;
+      border-radius: 50%;
+      background: $c-priority;
+      color: white;
+
+  }
+}
+.dark .article {
+  background-color: $c-darker-bg;
+}
+.priority {
+  border: solid 0.25em $c-priority;
+}
+
 .footer{
     display: flex;
     flex-direction: column;
@@ -152,6 +190,9 @@ body {
   }
   .footer__link:hover{
     background-color: #FF3333;
+  }
+  .footer__list--el.active{
+    background-color: $c-color3;
   }
   .logo{
     margin-top: 1em;

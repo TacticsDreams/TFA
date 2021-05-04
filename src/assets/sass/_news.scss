@@ -11,6 +11,16 @@
     padding: 0.5em;
     border: solid 1px;
 
+    & .headTitle {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    & .headDesc {
+        width: 80%;
+        margin: auto;
+    }
+
     & .timelist{
         list-style: none;
         width: 90%;
@@ -64,30 +74,6 @@
             cursor: not-allowed;
         }
     }
-}
-
-.article {
-    font-size: 18px;
-    width: 80%;
-    margin: 1em auto;
-    padding: 1em;
-    background-color: white;
-    &__link{
-        font-size: 16px;
-    }
-    & .badge {
-        position: relative;
-        top: -10px;
-        right: -10px;
-        padding: 5px 10px;
-        border-radius: 50%;
-        background: $c-priority;
-        color: white;
-
-    }
-}
-.priority {
-    border: solid 0.25em $c-priority;
 }
 
 

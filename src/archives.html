@@ -7,7 +7,7 @@
 
     <!--Open Graph-->
     <meta property="og:site_name" content="Minute Info"/>
-    <meta property="og:title" content="Actualités - Minute Info"/>
+    <meta property="og:title" content="Archives - Minute Info"/>
     <meta property="og:description" content="Découvrez MinuteInfos et ses fonctions"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://alexis-fluzin.fr/projets/tfa"/>
@@ -19,7 +19,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@publisher_handle">
     <meta name="twitter:creator" content="@author_handle">
-    <meta name="twitter:title" content="Actualités - Minute Info">
+    <meta name="twitter:title" content="Archives - Minute Info">
     <meta name="twitter:description" content="Découvrez MinuteInfos et ses fonctions">
     <!-- Twitter summary card with large image must be at least 280x150px -->
     <meta name="twitter:image" content="http://alexis-fluzin.fr/projets/tfa/assets/images/bg.jpg">
@@ -35,37 +35,31 @@
             <a class="topheader__logo" href="index.html">MinuteInfos</a>
             <ul class="topheader__navlist">
                 <li class="topheader__navlist--el"><a href="index.html">Accueil</a></li>
-                <li class="topheader__navlist--el active"><a href="main.html">Actualités</a></li>
-                <li class="topheader__navlist--el"><a href="archives.html">Archives</a></li>
+                <li class="topheader__navlist--el"><a href="main.html">Actualités</a></li>
+                <li class="topheader__navlist--el active"><a href="archives.html">Archives</a></li>
             </ul>
             <button class="modebutton">Dark Mode</button>
             <button class="burger">Menu</button>
         </nav>
     </header>
 
-    <main class="news" data-day="4">
+    <main class="archives">
         <button class="topBtn">Haut</button>
-        <div class="timeMachine">
-            <h1 class="headTitle title">Actualités récentes</h1>
-            <p class="headDesc">Recherchez les articles des quatre derniers jours avec cette machine à remonter le temps.</p>
-            <ul class="timelist">
-                <li class="timelist__el"><a>1</a></li>
-                <li class="timelist__el"><a>2</a></li>
-                <li class="timelist__el"><a>3</a></li>
-                <li class="timelist__el"><a>4</a></li>
-            </ul>
-            <div class="timeCommand">
-                <div class="timebutton timebutton--left">Previous</div>
-                <p class="timestamp">Jour</p>
-                <div class="timebutton timebutton--right">Next</div>
-            </div>
+        <div class="searchEngine">
+            <h1 class="searchEngine__title title">Archives</h1>
+            <p class="searchEngine__text">Vous recherchez les articles d'une date particulière? Les archives sont là pour ça! Tout ce que vous avez à faire, c'est d'entrer une date.</p>
+            <form class="searchForm">
+                <div class="searchForm__inputArea">
+                    <label class="searchForm__inputLabel" for="searchDate">Date:</label>
+                    <input class="searchForm__input"  type="date" id="searchDate" name="searchDate" value="2021-04-29" min="2021-04-23" max="2021-04-29">
+                </div>
+                <div class="searchForm__submit">
+                    <input class="searchForm__button" type="submit" value="Rechercher">
+                </div>
+            </form>
+            <p class="searchEngine__text" id="results"></p>
         </div>
 
-        <article class="article">
-            <h2 class="article__header title">Titre</h2>
-            <p class="article__sub">Subtext</p>
-            <p class="article__link">Lien</p>
-        </article>
     </main>
 
     <footer class="footer">
