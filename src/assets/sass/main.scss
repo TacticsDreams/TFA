@@ -155,6 +155,33 @@ body {
   border: solid 0.25em $c-priority;
 }
 
+
+/**
+ *  UI-KIT
+ */
+.ui-kit {
+  padding: 2em 0;
+  width: 100%;
+  background-color: rgba($color: #3377FF, $alpha: 0.18);
+
+  & .block {
+    width: 80%;
+    margin: auto;
+  }
+  & .news {
+    background-color: unset;
+  }
+  & .archives {
+    background-color: unset;
+    & .searchEngine {
+      height: unset;
+    }
+  }
+}
+.dark .ui-kit{
+  background-color: $c-dark-bg;
+}
+
 .footer{
     display: flex;
     flex-direction: column;

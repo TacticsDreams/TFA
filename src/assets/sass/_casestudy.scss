@@ -1,14 +1,12 @@
 .caseStudy {
-    padding: 48px 0;
+    padding: 48px 0 24px;
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr 5fr 5fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr 3fr 3fr 2fr 1fr;
 
     & .mainTitle {
+        font-family: 'Texturina', serif;
         grid-column: 3 / 6;
-    }
-    & .subText {
-        grid-column: 2 / 6;
     }
     & .title {
         grid-column: 2 / 6;
@@ -16,42 +14,84 @@
     & .text {
         grid-column: 2 / 6;
     }
-    & .subtitle {
-        grid-column: 3 / 5;
-    }
-    & .hero {
-        grid-column: 1 / 7;
-        background-color: $c-color2;
+    & .button {
         text-align: center;
-        margin: 0;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        background-color: $c-color4;
+        border: none;
+        border-radius: 1em;
         padding: 1em;
+        margin: 0.5em;
+        transition-property: background-color;
+        transition-duration: 0.2s;
+
+        &__left {
+            grid-column: 3/4;
+        }
+        &__right {
+            grid-column: 4/5;
+        }
+
+        &:hover {
+            background-color: $c-compl1;
+        }
+    }
+}
+
+.credits {
+    padding: 48px 0 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    & .creditContainer {
+        background-color: #ddd;
+        width: 80%;
+        margin: 0.5em auto;
+        padding: 1em;
+        
+        &__link {
+            color: blue;
+
+            &:hover {
+                color: $c-color4;
+            }
+        }
+    }
+}
+.dark .creditContainer {
+    background-color: $c-darker-bg;
+
+    &__link {
+        color: $c-color2;
+
+        &:hover {
+            color: $c-compl1;
+        }
     }
 }
 
 @media screen and (min-width: 769px) {
     .caseStudy {
-        grid-template-columns: 3fr 1fr 4fr 3fr 1fr 1fr 3fr 4fr 1fr 3fr;
-
+        padding: 24px 0 12px;
+        grid-template-columns: 2fr 2fr 3fr 3fr 2fr 2fr;
         & .mainTitle {
-            grid-column: 3 / 10;
+            grid-column: 3 / 6;
         }
         & .subText {
-            grid-column: 2 / 10;
+            grid-column: 2 / 6;
         }
         & .title {
-            grid-column: 2 / 10;
+            grid-column: 2 / 6;
         }
-        & .text__wide {
-            grid-column: 3 / 9;
-        }
-        & .text__left {
-            grid-column: 2 / 5;
-        }
-        & .subtitle {
-            grid-column: 3 / 9;
-        }
-        & .hero {
-            grid-column: 1 / 11;
+    }
+    .credits {
+        padding: 24px 0 12px;
+
+        & .creditContainer {
+            width: 65%;
         }
     }
 }

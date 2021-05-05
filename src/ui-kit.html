@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Minute Infos - Actualités</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Open Graph-->
+    <meta property="og:site_name" content="Minute Info"/>
+    <meta property="og:title" content="Archives - Minute Info"/>
+    <meta property="og:description" content="Découvrez MinuteInfos et ses fonctions"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://alexis-fluzin.fr/projets/tfa"/>
+    <meta property="og:image" content="http://alexis-fluzin.fr/projets/tfa/assets/images/bg.jpg"/>
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image:height" content="1066">
+
+    <!--Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:title" content="Archives - Minute Info">
+    <meta name="twitter:description" content="Découvrez MinuteInfos et ses fonctions">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image" content="http://alexis-fluzin.fr/projets/tfa/assets/images/bg.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:ital@0;1&family=Truculenta:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="assets/js/main.min.js" defer></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="topheader">
+            <a class="topheader__logo" href="index.html">MinuteInfos</a>
+            <ul class="topheader__navlist">
+                <li class="topheader__navlist--el"><a href="index.html">Accueil</a></li>
+                <li class="topheader__navlist--el"><a href="main.html">Actualités</a></li>
+                <li class="topheader__navlist--el"><a href="archives.html">Archives</a></li>
+            </ul>
+            <button class="modebutton">Dark Mode</button>
+            <button class="burger">Menu</button>
+        </nav>
+    </header>
+
+    <main class="ui-kit">
+        <div class="block">
+            <h1 class="title">Main Title</h1>
+            <h2 class="title">Sub Title</h2>
+            <p>Just your standard text.</p>
+
+            <article class="article">
+                <h2 class="article__header title">Titre</h2>
+                <p class="article__sub">Subtext</p>
+                <p class="article__link">Lien</p>
+            </article>
+            
+            <div class="news">
+                <div class="timeMachine">
+                    <h1 class="headTitle title">News Title</h1>
+                    <p class="headDesc">News Desc</p>
+                    <ul class="timelist">
+                        <li class="timelist__el"><a>1</a></li>
+                        <li class="timelist__el"><a>2</a></li>
+                        <li class="timelist__el"><a>3</a></li>
+                        <li class="timelist__el"><a>4</a></li>
+                    </ul>
+                    <div class="timeCommand">
+                        <div class="timebutton timebutton--left">Previous</div>
+                        <p class="timestamp">Day</p>
+                        <div class="timebutton timebutton--right">Next</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="archives">
+                <button class="topBtn">Haut</button>
+                <div class="searchEngine">
+                    <h1 class="searchEngine__title title">Archives Title</h1>
+                    <p class="searchEngine__text">Archives Text</p>
+                    <form class="searchForm">
+                        <div class="searchForm__inputArea">
+                            <label class="searchForm__inputLabel" for="searchDate">Input label:</label>
+                            <input class="searchForm__input"  type="date" id="searchDate" name="searchDate" value="2021-04-29" min="2021-04-23" max="2021-04-29">
+                        </div>
+                        <div class="searchForm__submit">
+                            <input class="searchForm__button" type="submit" value="Rechercher">
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </main>
+
+        
+    <footer class="footer">
+
+        <a class="logo" href="http://dwm.re">DWM</a>
+        <a class="footer__link" href="http://alexis-fluzin.fr">Alexis Fluzin © 2020-</a>
+        <ul class="footer__list">
+            <li class="footer__list--el"><a href="case-study.html">Case-Study</a></li>
+            <li class="footer__list--el  active"><a href="ui-kit.html">UI Kit</a></li>
+            <li class="footer__list--el"><a href="credits.html">Crédits</a></li>
+        </ul>
+    
+    </footer>
+</body>
+</html>
