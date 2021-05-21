@@ -3,9 +3,11 @@ var fileName = location.href.split("/").slice(-1);
 
 
 const footer = document.querySelector(".footer__link");
-let now = new Date();
-let year = now.getFullYear();
-footer.innerHTML += year;
+if (footer) {
+    let now = new Date();
+    let year = now.getFullYear();
+    footer.innerHTML += year;
+}
 
 if (window.localStorage.getItem('dark') === 'true') {
     document.body.classList.toggle('dark');
