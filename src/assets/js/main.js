@@ -163,6 +163,9 @@ if (fileName[0].includes("main.html")) {
     const topButton = document.querySelector(".topBtn");
     window.onscroll = function() {scrollFunction()};
 
+    /**
+     * Une fonctionnalité qui permet aux utilisateurs (surtout mobile) de remonter en haut de la page.
+     */
     function scrollFunction() {
         if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
             topButton.style.display = "block";
