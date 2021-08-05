@@ -7,30 +7,30 @@
         "priority": "true"
     },
     {
-        "title": "A year in lockdown trends",
-        "sub": "The hobbies we searched for during the pandemic’s first year.",
-        "website": "https://lockdown-trends.appspot.com/",
+        "title": "Attaque à Rambouillet : 'Il n'y a pas non plus de recette miracle en matière de lutte contre le terrorisme', estime un ancien député des Hauts-de-Seine",
+        "sub": "Les types d'attaques terroristes comme celle survenue à Rambouillet (Yvelines) vendredi, provoquant la mort d'une fonctionnaire de police, sont très difficiles à contrer, affirme Sébastien Pietrasanta. ",
+        "website": "https://www.francetvinfo.fr/societe/justice/attaque-a-rambouillet-il-n-y-a-pas-non-plus-de-recette-miracle-en-matiere-de-lutte-contre-le-terrorisme-estime-un-ancien-depute-des-hauts-de-seine_4383863.html",
         "date": "23/04/2021",
         "priority": "false"
     },
     {
-        "title": "The Making (and Potential Benefits) of a CSS Font",
-        "sub": "This is a way to render text without using any font at all. Every element is styled with CSS to create the characters.",
-        "website": "https://css-tricks.com/the-making-and-potential-benefits-of-a-css-font",
+        "title": "Automobile : les garages itinérants se multiplient, les clients se réjouissent",
+        "sub": "Faire réparer sa voiture chez soi ou sur son lieu de travail, c’est désormais possible. Les garages itinérants tendent à se développer en France. ",
+        "website": "https://www.francetvinfo.fr/economie/automobile/automobile-les-garages-itinerants-se-multiplient-les-clients-se-rejouissent_4383851.html",
         "date": "23/04/2021",
         "priority": "false"
     },
     {
-        "title": "Elaborately Constructed LEGO Universes by Artist Ekow Nimako",
-        "sub": "Hundreds of thousands of sleek, black LEGO structure the utopic universes by Toronto-based artist Ekow Nimako.",
-        "website": "https://www.thisiscolossal.com/2021/04/ekow-nimako-building-black",
+        "title": "Cryptomonnaies : comment fonctionnent-elles ? Qu'est-ce que le minage ?",
+        "sub": "Ethereum, Ripple, Tether, et bien sûr le célèbre Bitcoin, les cryptomonnaies font l’actualité depuis le début des années 2010.",
+        "website": "https://www.sciencesetavenir.fr/high-tech/web/cryptomonnaies-comment-fonctionnent-elles_153782",
         "date": "23/04/2021",
         "priority": "false"
     },
     {
-        "title": "Winners of the 2021 Sony World Photography Awards",
-        "sub": "Some of the winning and shortlisted photos from this year’s competition.",
-        "website": "https://www.theatlantic.com/photo/2021/04/winners-2021-sony-world-photography-awards/618662",
+        "title": "Un rapport de la Cour des comptes critique la stratégie de la France au Sahel",
+        "sub": "Selon le gendarme des finances publiques, la priorité au développement annoncée par Paris pour la région n’a « été qu’en partie suivie d’effet ».",
+        "website": "https://www.lemonde.fr/international/article/2021/04/23/un-rapport-de-la-cour-des-comptes-critique-la-strategie-de-la-france-au-sahel_6077867_3210.html",
         "date": "23/04/2021",
         "priority": "false"
     },
@@ -140,37 +140,37 @@
         "priority": "false"
     },
     {
-        "title": "Beyond Calibri: Finding The Next Microsoft 365 Default Font",
-        "sub": "Default fonts are perhaps most notable in the absence of the impression they make.",
-        "website": "https://medium.com/microsoft-design/beyond-calibri-finding-the-next-microsoft-365-default-font-5ef83f028be2",
+        "title": "Covid-19 : le ras-le-bol des soignants face à une troisième vague qui dure",
+        "sub": "Alors qu’Emmanuel Macron a promis un allègement des restrictions sanitaires, jeudi 29 avril, des services de réanimation en Ile-de-France sont toujours saturés à cause de l’épidémie.",
+        "website": "https://www.francetvinfo.fr/sante/maladie/coronavirus/confinement/covid-19-le-ras-le-bol-des-soignants-face-a-une-troisieme-vague-qui-dure_4604735.html",
         "date": "29/04/2021",
         "priority": "false"
     },
     {
-        "title": "How to deprecate old components in Figma design systems",
-        "sub": "A strategy to help ease some of the pain and confusion when deprecating unwanted components from your Figma design system.",
-        "website": "https://medium.com/onfido-tech/how-to-deprecate-old-components-in-figma-design-systems-7978ea8e045e",
+        "title": "Bondy: une information judiciaire ouverte un an après l'interpellation policière violente de Gabriel",
+        "sub": "Gabriel, 14 ans, avait été interpellé en mai 2020 alors qu'il tentait de voler un scooter. Il raconte avoir subi des violences policières et a dû être opéré à l'hôpital afin de ne pas perdre la vue.",
+        "website": "https://www.francetvinfo.fr/faits-divers/police/violences-policieres/bondy-une-information-judiciaire-ouverte-un-an-apres-l-arrestation-violente-de-gabriel-14-ans_4604715.html",
         "date": "29/04/2021",
         "priority": "false"
     },
     {
-        "title": "I studied the fonts of the top 1000 websites. Here’s what I learned.",
-        "sub": "A design-curious data scientist crawled the top 1000 websites to analyze their font selections.",
-        "website": "https://dribbble.com/stories/2021/04/26/web-design-data-fonts",
+        "title": "Un jeune franco-malien condamné à cinq de prison à Dakar pour recel d'apologie du terrorisme",
+        "sub": "Le tribunal spécial de Dakar a reconnu le jeune homme de 22 ans coupable d'avoir détenu des documents ayant un lien avec des groupes terroristes.",
+        "website": "https://www.francetvinfo.fr/monde/terrorisme-djihadistes/un-jeune-franco-malien-condamne-a-cinq-de-prison-a-dakar-pour-recel-d-apologie-du-terrorisme_4604815.html",
         "date": "29/04/2021",
         "priority": "false"
     },
     {
-        "title": "Microsoft debuts five new fonts in a death match to rule Office",
-        "sub": "Which will be the successor to Calibri? We’ll know in a year.",
-        "website": "https://www.fastcompany.com/90629921/microsoft-debuts-five-new-fonts-in-a-death-match-to-rule-office",
+        "title": "Etats-Unis : plaqué au sol par des policiers, un homme meurt dans les mêmes circonstances que George Floyd",
+        "sub": "Mario Gonzalez, 26 ans, est mort à Alameda en Californie après avoir été plaqué au sol durant plus de 5 minutes par des policiers.",
+        "website": "https://www.francetvinfo.fr/faits-divers/police/violences-policieres/etats-unis-plaque-au-sol-par-des-policiers-un-homme-meurt-dans-les-memes-circonstances-que-george-floyd_4604807.html",
         "date": "29/04/2021",
         "priority": "false"
     },
     {
-        "title": "You bought a pixel for $1.4 million",
-        "sub": "Yesterday, a Sotheby’s auction for a single gray pixel ended with a winning bid of $1,355,555.",
-        "website": "https://uxdesign.cc/you-bought-a-pixel-for-1-4-million-94c430cc5140",
+        "title": "Au Maroc, 20 % des plus riches gagnent plus de la moitié des revenus perçus dans le pays",
+        "sub": "La crise sanitaire a provoqué une explosion de la pauvreté, qui a été multipliée par sept, surtout en milieu urbain.",
+        "website": "https://www.lemonde.fr/afrique/article/2021/04/29/au-maroc-20-des-plus-riches-gagnent-plus-de-la-moitie-des-revenus-percus-dans-le-pays_6078472_3212.html",
         "date": "29/04/2021",
         "priority": "false"
     }

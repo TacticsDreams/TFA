@@ -11,7 +11,7 @@
     & .title {
         grid-column: 2 / 6;
     }
-    & .text {
+    & p {
         grid-column: 2 / 6;
     }
     & .button {
@@ -32,6 +32,9 @@
         }
         &__right {
             grid-column: 4/5;
+        }
+        &__wide{
+            grid-column: 3/5;
         }
 
         &:hover {
