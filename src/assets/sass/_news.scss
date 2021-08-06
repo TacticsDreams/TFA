@@ -1,14 +1,18 @@
 .news {
     width: 100%;
-    padding: 3em 0 1em;
+    padding: 3em 0 calc(2em + 10%);
     background-color: rgba($color: #3377FF, $alpha: 0.18);
+
+    & .title {
+        text-align: center;
+    }
 }
 
 .news .timeMachine {
     background-color: white;
     width: 80%;
     margin: auto;
-    padding: 0.5em;
+    padding: 0.5em 0;
     border: solid 1px;
 
     & .headTitle {
@@ -51,6 +55,10 @@
     display: flex;
     justify-content: space-around;
     align-self: center;
+
+    & .timestamp{
+        font-weight: 700;
+    }
 }
 .timebutton {
     background-repeat: no-repeat;
@@ -64,6 +72,7 @@
         background-image: url('../images/arrow-left-circle.svg');
         &.disable {
             background-image: url('../images/arrow-left-circle-disable.svg');
+            opacity: 0.8;
             cursor: not-allowed;
         }
     }
@@ -72,6 +81,7 @@
         background-image: url('../images/arrow-right-circle.svg');
         &.disable {
             background-image: url('../images/arrow-right-circle-disable.svg');
+            opacity: 0.8;
             cursor: not-allowed;
         }
     }
@@ -93,13 +103,27 @@
     }
 
 }
-
+@media (max-width: 767px) {
+    .news .timeMachine {
+        position: fixed;
+        bottom: 0;
+        border: none;
+        width: 100%;
+        z-index: 5;
+        background-color: rgba($color: $c-color2, $alpha: 0.98);
+        & .headTitle, .headDesc, .timelist {
+            display: none;
+        }
+    }
+}
 @media (min-width: 768px) {
  .news {
-     padding-top: 1em;
+     
+    padding: 1em 0;
      font-size: 20px;
      & .timeMachine {
          width: 70%;
+         padding: 0.5em;
      }
  }
  .article {

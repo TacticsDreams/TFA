@@ -160,13 +160,13 @@ if (fileName[0].includes("main.html")) {
             leftButton.classList.remove("disable");}
     }
 
-    const topButton = document.querySelector(".topBtn");
+    /*const topButton = document.querySelector(".topBtn");
     window.onscroll = function() {scrollFunction()};
 
     /**
      * Une fonctionnalité qui permet aux utilisateurs (surtout mobile) de remonter en haut de la page.
      */
-    function scrollFunction() {
+    /*function scrollFunction() {
         if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
             topButton.style.display = "block";
         } else {
@@ -178,7 +178,7 @@ if (fileName[0].includes("main.html")) {
         e.preventDefault();
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
-    });
+    });*/
 
     buttonCheck();
     updateTime();

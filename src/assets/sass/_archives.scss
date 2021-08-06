@@ -7,7 +7,7 @@
     & .searchEngine {
         width: 80%;
         margin: auto;
-        height: 50vh;
+        height: 70vh;
 
         &__title {
             text-align: center;
@@ -67,20 +67,24 @@
     background-color: $c-dark-bg;
 }
 @media (min-width: 769px){
-    .archives .searchEngine .searchForm {
+    .archives .searchEngine {
+    
+        height: 60vh;
+        & .searchForm {
 
-        &__inputArea {
-            grid-column: 2 / 4;
-            display: flex;
-            justify-content: space-around;
-        }
+            &__inputArea {
+                grid-column: 2 / 4;
+                display: flex;
+                justify-content: space-around;
+            }
 
-        &__inputLabel {
-            align-self: center;
-        }
+            &__inputLabel {
+                align-self: center;
+            }
 
-        &__button {
-            padding: 1.5em;
+            &__button {
+                padding: 1.5em;
+            }
         }
     }
 }

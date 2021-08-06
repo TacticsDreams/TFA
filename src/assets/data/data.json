@@ -42,23 +42,23 @@
         "priority": "true"
     },
     {
-        "title": "Getting started with CSS Custom Properties",
-        "sub": "Custom properties in CSS are exceptionally useful for abstracting complexity and interactivity into smaller, easier to manage pieces.",
-        "website": "https://piccalil.li/tutorial/getting-started-with-css-custom-properties?ref=sidebar",
+        "title": "Rentrée des classes : un retour en classe très encadré pour les écoliers",
+        "sub": "La rentrée des classes a eu lieu lundi 26 avril, au matin, pour six millions d'écoliers. Des millions de tests vont être déployés sur tout le territoire, pour les enseignants comme les élèves.  ",
+        "website": "https://www.francetvinfo.fr/sante/maladie/coronavirus/deconfinement/rentree-des-classes-un-retour-en-cours-tres-encadre-pour-les-ecoliers_4387443.html",
         "date": "26/04/2021",
         "priority": "false"
     },
     {
-        "title": "How tracking and kerning improves all caps text",
-        "sub": "When untreated, all caps text creates problematic spaces between letters. Tracking fixes it mostly for web and app design, kerning fine-tunes it.",
-        "website": "https://www.zeichenschatz.net/typography/tracking-and-kering-all-caps-text?ref=sidebar",
+        "title": "Lutte contre le terrorisme : comment assurer une surveillance renforcée ?",
+        "sub": "Jamel Gorchene, auteur de l'attaque à Rambouillet (Yvelines), avait déjà rédigé plusieurs messages suspects, signe de radicalisation sur les réseaux sociaux. Peut-on davantage impliquer l'intelligence artificielle dans la lutte contre le terrorisme ?",
+        "website": "https://www.francetvinfo.fr/faits-divers/terrorisme/fonctionnaire-de-police-tuee-a-rambouillet/lutte-contre-le-terrorisme-comment-assurer-une-surveillance-renforcee_4387417.html",
         "date": "26/04/2021",
         "priority": "false"
     },
     {
-        "title": "This is how video calls should feel. Thank you!",
-        "sub": "Meet Around, video calls built for collaboration, not meetings. Free up your screen for design sessions with our lightweight, unobtrusive interface.",
-        "website": "https://www.around.co/?g=sidebar&ref=sidebar?ref=sidebar",
+        "title": "Le zhar, « or blanc » convoité du Nord-Est tunisien",
+        "sub": "De mars à avril, la cueillette des fleurs de bigaradier permet à de nombreuses familles et agriculteurs de vivre, grâce au processus ancestral de distillation en eau florale et au marché, plus industriel, de l’huile de néroli.",
+        "website": "https://www.lemonde.fr/afrique/article/2021/04/26/tunisie-le-zhar-or-blanc-de-la-region-du-cap-bon_6078147_3212.html",
         "date": "26/04/2021",
         "priority": "false"
     },
@@ -70,72 +70,72 @@
         "priority": "false"
     },
     {
-        "title": "Exploring color-contrast() for the first time.",
-        "sub": "I saw in the release notes for Safari Technical Preview 122 that it has support for a color-contrast() function in CSS.",
-        "website": "https://css-tricks.com/exploring-color-contrast-for-the-first-time",
+        "title": "Consommation : les jus de fruits et thés glacés, le paradis des sucres ajoutés ?",
+        "sub": "Les jus de fruits sont-ils bons pour la santé ? Les équipes de France Télévisions se penchent sur la question, mardi 27 avril, dans le cadre de la rubrique Derrière nos étiquettes.",
+        "website": "https://www.francetvinfo.fr/sante/alimentation/consommation-les-jus-de-fruits-et-thes-glaces-le-paradis-des-sucres-ajoutes_4601751.html",
         "date": "27/04/2021",
         "priority": "false"
     },
     {
-        "title": "CSS Tips",
-        "sub": "CSS tips and tricks you will not see in most of tutorials.",
-        "website": "https://markodenic.com/css-tips",
+        "title": "La Philharmonie des enfants ouvrira ses portes le 29 septembre à Paris",
+        "sub": "La Philharmonie de Paris inaugurera fin septembre son espace réservé aux enfants de 4 à 10 ans.",
+        "website": "https://www.francetvinfo.fr/culture/musique/la-philharmonie-des-enfants-ouvrira-ses-portes-le-29-septembre-a-paris_4601769.html",
         "date": "27/04/2021",
         "priority": "false"
     },
     {
-        "title": "Introducing branching: space to iterate and explore freely",
-        "sub": "Announcing branching in beta.",
-        "website": "https://www.figma.com/blog/introducing-branching-space-to-iterate-and-explore-freely",
+        "title": "Ain : un jeune homme qui vendait des mortiers d'artifice sur les réseaux sociaux a été interpellé à Oyonnax",
+        "sub": "Les policiers ont trouvé 122 mortiers et un pistolet d'alarme. L'homme a été placé en garde à vue puis libéré.",
+        "website": "https://www.francetvinfo.fr/faits-divers/ain-un-jeune-homme-qui-vendait-des-mortiers-d-artifice-sur-les-reseaux-sociaux-a-ete-interpelle-a-oyonnax_4601841.html",
         "date": "27/04/2021",
         "priority": "false"
     },
     {
-        "title": "Proposed Post-Pandemic New Yorker Covers",
-        "sub": "Tomer Hanuka asked his third-year illustration students at SVA to come up with a post-pandemic New Yorker magazine cover.",
-        "website": "https://kottke.org/21/04/proposed-post-pandemic-new-yorker-covers",
+        "title": "Fonderie de Bretagne : les salariés bloquent l’usine",
+        "sub": "Les salariés réclament leur maintien au sein du groupe Renault, qui a annoncé le 11 mars la mise en vente de l’usine.",
+        "website": "https://www.lemonde.fr/idees/article/2021/04/26/a-rebours-du-monde-entier-emmanuel-macron-rehabilite-l-archaisme-en-matiere-de-politique-des-drogues_6078124_3232.html",
         "date": "27/04/2021",
         "priority": "false"
     },
     {
-        "title": "Designing search for your product",
-        "sub": "Find your way around one of the most universal features. Explore the stages of Search, how it works, crucial decisions, and how to design it.",
-        "website": "https://medium.muz.li/designing-search-for-your-product-758c97a64fc8",
+        "title": "En Tunisie, l’autre parcours des migrants subsahariens",
+        "sub": "De Tunis à Sfax, de nombreux étudiants mais aussi des travailleurs qui ont pu régulariser leur statut, commencent à entreprendre, malgré de nombreux obstacles.",
+        "website": "https://www.lemonde.fr/economie/article/2021/04/27/fonderie-de-bretagne-les-salaries-bloquent-l-usine_6078252_3234.html",
         "date": "27/04/2021",
         "priority": "false"
     },
     {
-        "title": "Inspirational Websites Roundup #25",
-        "sub": "A hot new collection of amazing website designs and experiences for your inspiration.",
-        "website": "https://tympanus.net/codrops/2021/04/27/inspirational-websites-roundup-25",
+        "title": "'Wanted' : l'avis de recherche original d'une commune vosgienne pour trouver des commerçants",
+        "sub": "Pour faire face à la désertification de son centre-ville, une commune des Vosges n'hésite pas à employer des méthodes de cow-boy.",
+        "website": "https://www.francetvinfo.fr/france/ilsontlasolution/wanted-l-avis-de-recherche-original-d-une-commune-vosgienne-pour-trouver-des-commercants_4602805.html",
         "date": "28/04/2021",
         "priority": "false"
     },
     {
-        "title": "Welcome to Wondrium",
-        "sub": "Rebranding The Great Courses for the age of streaming.",
-        "website": "https://www.viget.com/articles/welcome-to-wondrium",
+        "title": "Sécurité : le gouvernement sous le feu des critiques",
+        "sub": "De nombreux opposants politiques à Emmanuel Macron critiquent son bilan en termes de sécurité.",
+        "website": "https://www.francetvinfo.fr/politique/emmanuel-macron/securite-le-gouvernement-sous-le-feu-des-critiques_4602919.html",
         "date": "28/04/2021",
         "priority": "false"
     },
     {
-        "title": "A Very 90s Death: The Tamagotchi Cemetery",
-        "sub": "In 1996, Japanese toy designers Aki Maita and Yokoi Akihiro debuted the first ever Tamagotchi.",
-        "website": "https://burialsandbeyond.com/2021/03/06/tamagotchi-cemetery",
+        "title": "Déconfinement : Emmanuel Macron s’est entretenu avec plusieurs maires",
+        "sub": "Plusieurs maires ont discuté mardi 27 avril avec Emmanuel Macron sur les prochaines mesures que devrait prendre le gouvernement lors des prochaines semaines.",
+        "website": "https://www.francetvinfo.fr/sante/maladie/coronavirus/deconfinement/deconfinement-emmanuel-macron-sest-entretenu-avec-plusieurs-maires_4602963.html",
         "date": "28/04/2021",
         "priority": "false"
     },
     {
-        "title": "A Complete Guide to Custom Properties",
-        "sub": "Everything important and useful to know about CSS Custom Properties.",
-        "website": "https://css-tricks.com/a-complete-guide-to-custom-properties",
+        "title": "« Le Pouvoir du design » sur Arte, ses enjeux politiques et écologiques",
+        "sub": "Un documentaire revient sur ce courant créatif tel qu’il est aujourd’hui conçu et pensé par une jeune génération qui tente d’associer esthétisme et responsabilité.",
+        "website": "https://www.lemonde.fr/culture/article/2021/04/28/le-pouvoir-du-design-sur-arte-ses-enjeux-politiques-et-ecologiques_6078413_3246.html",
         "date": "28/04/2021",
         "priority": "false"
     },
     {
-        "title": "UI & UX Micro-Tips: Volume Four",
-        "sub": "In this follow-up article I’ve brought you another selection of easy to put into practice UI & UX micro-tips.",
-        "website": "https://marcandrew.me/ui-ux-micro-tips-volume-four",
+        "title": "Brèves timbrées",
+        "sub": "Napoléon, ventes aux enchères, coronavirus… L’actualité philatélique fait feu de tout bois.",
+        "website": "https://www.lemonde.fr/mondephilatelique/article/2021/04/28/breves-timbrees_6078405_5470897.html",
         "date": "28/04/2021",
         "priority": "false"
     },
