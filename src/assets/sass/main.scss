@@ -44,6 +44,7 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 0.5em 0;
   justify-content: space-around;
   align-items: center;
   z-index: 5;
@@ -244,6 +245,7 @@ body {
     .topheader {
       position: unset;
       flex-wrap: nowrap;
+      padding: 0;
     }
     .topheader__navlist {
       display: flex;
@@ -255,6 +257,7 @@ body {
     }
     .article {
       width: 70%;
+      margin: 2em auto;
     }
     .burger {
       display: none;

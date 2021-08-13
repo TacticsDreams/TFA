@@ -41,6 +41,11 @@
             background-color: $c-compl1;
         }
     }
+    .list {
+        grid-column: 2/6;
+        padding: 0;
+        list-style-type: '\002014';
+    }
 }
 
 .credits {
