@@ -1,7 +1,6 @@
 .news {
     width: 100%;
     padding: 3em 0 calc(2em + 10%);
-    background-color: rgba($color: #3377FF, $alpha: 0.18);
 
     & .title {
         text-align: center;
@@ -9,7 +8,7 @@
 }
 
 .news .timeMachine {
-    background-color: white;
+    background-color: $c-color2;
     width: 80%;
     margin: auto;
     padding: 0.5em 0;
@@ -34,6 +33,7 @@
         justify-content: space-around;
         border-radius: 0.5em;
         border: solid 1px;
+        background-color: #fff;
 
         &__el{
             padding: 0.5em 1em;
